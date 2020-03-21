@@ -1,0 +1,84 @@
+body{
+    margin: 0px;    
+}
+.background {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../Resources/LoginBackground.png);
+    background-size: cover;
+    
+}
+.opacity {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.375);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.supblock{
+    background-color: #333432;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #00E5FF;
+    z-index: 1;
+    transition: width  0.1s, height 0.1s;
+}
+
+.block{
+    width: 100%;
+    display: flex;
+}
+
+.suptitle{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-size: 36px;
+}
+
+.enterbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.camplabel{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.textbox{
+    background-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #00E5FF;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+.button{
+    margin-top: 25px;
+    width: 40%;
+    background-color: #00E5FF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+    border: 0px;
+    text-align: center;
+    border-radius: 30px;
+    
+}

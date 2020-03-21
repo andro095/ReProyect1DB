@@ -1,0 +1,60 @@
+.sblock{
+    width: 1000px;
+    height: 700px;
+}
+
+.sblock:hover{
+    width: 1100px;
+    height: 800px;
+}
+
+.hblockg{
+    height: 15%;
+}
+
+.hblock{
+    height: 14%;
+}
+
+.supbox{
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.enterboxs{
+    width: 100%;
+    height: 34%;
+}
+
+.henterbox{
+    height: 100%;
+}
+
+.trbox{
+    width: 30%;
+}
+
+.trboxg{
+    width: 40%;
+}
+
+.trboxp{
+    width: 25%;
+}
+
+.twbox{
+    width: 45%;
+}
+
+.twboxg{
+    width: 80%;
+}
+
+.twboxp{
+    width: 12.5%;
+}
+
+.hbutton{
+    height: 51.4%;
+}
