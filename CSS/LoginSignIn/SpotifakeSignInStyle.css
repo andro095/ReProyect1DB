@@ -43,10 +43,6 @@
     width: 25%;
 }
 
-.twbox{
-    width: 45%;
-}
-
 .twboxg{
     width: 80%;
 }
@@ -57,4 +53,13 @@
 
 .hbutton{
     height: 51.4%;
+}
+
+select{
+    text-align: center;
+    text-align-last: center;
+}
+
+option{
+    text-align: center;
 }

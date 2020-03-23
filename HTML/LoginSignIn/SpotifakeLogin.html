@@ -21,19 +21,20 @@
                 <div class="block suptext">
                     <div class="enterbox enterboxs">
                         <p class="camplabel">Usuario</p>
-                        <input type="text" class="textbox textboxs1" autocomplete="username">
+                        <input type="text" class="textbox textboxs1" id="user" autocomplete="username">
                     </div>
                     <div class="enterbox enterboxs">
                         <p class="camplabel">Contraseña</p>
-                        <input type="password" class="textbox textboxs1" autocomplete="current-password">
+                        <input type="password" class="textbox textboxs1" id="pass" autocomplete="current-password">
                     </div>
                 </div>
                 <div class="block supbutton">
-                    <input type="submit" class="button hbutton" value="Iniciar sesión">
-                    <input type="submit" class="button hbutton" value="Registrarse">
+                    <input type="submit" class="button hbutton" onclick="validateUser()" value="Iniciar sesión">
+                    <input type="submit" class="button hbutton" onclick="loadSignIn()" value="Registrarse">
                 </div>
             </div>
         </div>
     </div>
+    <script src="../../JS/LoginSignIn/SpotifakeLogin.js"></script>
 </body>
 </html>
